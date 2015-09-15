@@ -22,9 +22,9 @@ test:
 
 production:
   adapter: postgresql
-  database: <%= ENV['DATABASE_NAME'] || 'camaleon-cms-test_production' %>
+  database: <%= ENV['DATABASE_NAME'] || 'camaleon' %>
   host: <%= ENV['DATABASE_HOST'] || 'localhost' %>
   port: <%= ENV['DATABASE_PORT'] || 5432 %>
-  username: <%= ENV['DATABASE_USERNAME'] || "wololoo" %>
+  username: <%= ENV['DATABASE_USERNAME'] || 'camaleon' %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
   min_messages: ERROR
