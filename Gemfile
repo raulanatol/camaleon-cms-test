@@ -46,6 +46,7 @@ group :development do
 end
 
 gem 'pg'
+gem 'puma'
 
 #FIXME temporal
 gem 'el_finder_s3'
