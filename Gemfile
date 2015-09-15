@@ -45,6 +45,8 @@ group :development do
   gem 'spring'
 end
 
+gem 'pg'
+
 #FIXME temporal
 gem 'el_finder_s3'
 gem 'aws-sdk'
